@@ -1,5 +1,7 @@
 # Entree Assignment
 
+![]([https://github.com/Your_Repository_Name/Your_GIF_Name.gif](https://github.com/mykhailo-temp-account/entreecap-assignment/blob/main/showcase.gif))
+
 ## Prerequisites
 
 Make sure you have the following dependencies installed on your system:
