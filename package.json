@@ -1,0 +1,27 @@
+{
+  "name": "entreecap-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "scrape-norseman": "npx tsc && node src/scraping/norsemen_tv_runner.js",
+    "scrape-vikings": "npx tsc && node src/scraping/vikings_tv_runner.js",
+    "webapp": "npx tsc && node src/webapp_server/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@types/pg": "^8.10.2",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fastify": "^4.20.0",
+    "ioredis": "^5.3.2",
+    "pg": "^8.11.1",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.0.1"
+  }
+}
